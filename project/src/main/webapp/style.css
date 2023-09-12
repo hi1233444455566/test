@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+/* 〜〜〜〜〜　header.jsp　〜〜〜〜〜 */
+/* body */
+body {
+	/* フォントの指定 */
+	font-family: BIZ UDPゴシック;
+	/* 外部余白の消去 */
+	margin: 0;
+	/* 中央寄せ */
+	text-align: center;
+	/* 背景色 */
+	background-color: #f2f2f2;
+}
+/* header */
+header {
+	/* 背景色 */
+	background-color: #adadad;
+	/* 内部余白 */
+	padding: 12px 4%;
+	/* 横並び */
+	display: flex;
+	/* 均等配置（両端） */
+	justify-content: space-between;
+	/* 子要素を中央に配置する */
+	align-items: center;
+	/* メインとの境界線 */
+	border-bottom: 1px solid;
+}
+/* 会社のダミーロゴ */
+img {
+	/* 横幅 */
+	width: 100px;
+	/* 高さ */
+	height: 100px;
+}
+/* 〜〜〜〜〜　header.jsp　終了　〜〜〜〜〜 */
+
+
+/* 〜〜〜〜〜　main共通部分　〜〜〜〜〜 */
+/* ログイン情報入力欄 */
+form {
+	/* 内部余白の調整 */
+	padding: 30px 50px 0 50px;
+}
+/* 入力項目欄 */
+.user_id {
+	/* 横幅の調整 */
+	width: 50%;
+	/* 表示幅の最大値 */
+	max-width: 600px;
+	/* 横並び */
+	display: flex;
+	/* 外部余白の調整 */
+	margin: 30px auto 0px auto;
+	/* 子要素の中央配置 */
+	align-items: center;
+	/* 均等配置 */
+	justify-content: space-between;
+}
+/* 項目の文字 */
+.user_id div {
+	/* 空間を詰めて文字を折り返さない */
+	white-space: nowrap;
+	/* 書式の位置 */
+	text-align: center;
+}
+/* 入力ボックス欄の大きさ */
+.user_id input {
+	/* 縦の長さ */
+	height: 50px;
+	/* 横の長さ */
+	width: 65%;
+}
+/* 登録ボタン */
+input#Registration {
+	/* 縦の長さ */
+	height: 50px;
+	/* 横の長さ */
+	width: 150px;
+	/* 枠線を消去 */
+	border: none;
+	/* 背景色の指定 */
+	background-color: #b4c7e7;
+	/* 外部余白の調整 */
+	margin: 30px auto;
+}
+/* 新規登録 */
+a {
+	/* 文字色 */
+	color: #0070c0;
+}
+/* 〜〜〜〜〜　main共通部分　終了　〜〜〜〜〜 */
+
+
+/* 〜〜〜〜〜　login.jsp　〜〜〜〜〜 */
+/* ログイン文字のCSS */
+h2 {
+	/* フォントの大きさ */
+	font-size: 200%;
+	/* 外部余白 */
+	margin: 100px auto 0px auto;
+}
+/* 〜〜〜〜〜　login.jsp　終了　〜〜〜〜〜 */
+
+
+/* 〜〜〜〜〜　newAccount.jsp　〜〜〜〜〜 */
+
+/* 〜〜〜〜〜　newAccount.jsp　終了　〜〜〜〜〜 */
+
+
+/* 〜〜〜〜〜　select.jsp　〜〜〜〜〜 */
+/* mainクラスのCSS */
+.main1 {
+	/* 背景色 */
+	background-color: #ffffff;
+	/* 外部余白の調整 */
+	margin: 100px 30%;
+	/* 内部余白の調整 */
+	padding: 30px 0 30px 0;
+}
+/* 〜〜〜〜〜　select.jsp　終了　〜〜〜〜〜 */
+
+
+/* 〜〜〜〜〜　selfIntroduction.jsp　〜〜〜〜〜 */
+main {
+    margin-top: 100px;
+}
+.textmsg {
+    margin:50px auto 50px auto;
+}
+/* ログイン情報入力欄 */
+form {
+	/* 内部余白の調整 */
+	padding: 30px 50px 0 50px;
+}
+.items {
+   /* 横幅の調整 */
+	width: 140%;
+	/* 表示幅の最大値 */
+	max-width: 600px;
+	/* 横並び */
+	display: flex;
+	/* 外部余白の調整 */
+	margin: 50px auto 0px auto;
+	/* 子要素の中央配置 */
+	align-items: center;
+	/* 均等配置 */
+	justify-content: space-between;
+}
+/* 項目の文字 */
+.items div {
+	/* 空間を詰めて文字を折り返さない */
+	white-space: nowrap;
+	/* 書式の位置 */
+	text-align: center;
+}
+/* 〜〜〜〜〜　selfIntroduction.jsp　終了　〜〜〜〜〜 */
+
+
+/* 〜〜〜〜〜　ListScreen.jsp　〜〜〜〜〜 */
+div {
+	text-align:center;
+	background-color:#f0f1f0;
+}
+
+table {
+	border-collapse: collapse;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	border:1px solid black;
+}
+
+td {
+	border:1px solid black;
+}
+/* 〜〜〜〜〜　ListScreen.jsp　終了　〜〜〜〜〜 */
